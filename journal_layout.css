@@ -1,0 +1,96 @@
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+body {
+  font-family: "Georgia";
+  color: #009097;
+}
+
+
+h1, h2 {
+  font-weight: normal;
+  font-family: "Century Gothic";
+  margin: 3px;
+  padding: 0px;
+}
+
+img {
+  border-style: none;
+  padding: 5px;
+}
+
+ul {
+  padding-left: 10px;
+  margin: 2px 10px 2px 5px;
+}
+.part1 {
+text-align: right;
+background-color: #96a79f;
+}
+
+body {
+background-image: url(background.jpg);
+}
+
+
+
+.content{
+margin: 0 10% 0 10%;
+border: 10px white solid;
+background-color: grey;
+}
+
+.sofresh {
+font-size: 14pt;
+}
+
+.layout{
+background-color: white;
+overflow: hidden;
+}
+
+.left{
+box-sizing: border-box;
+width: 25%;
+margin: 10px 0 0 0;
+border: 4px #C2E9E9 solid;
+
+float:left;
+padding: 5px;
+
+}
+.date {
+border-bottom: 2px blue dashed; 
+}
+
+.part2, .part3 {
+box-sizing: border-box;
+width: 75%;
+float: right;
+background-color: #96a79f;
+padding: 5px;
+margin: 10px 0px 0px 0px;
+border: 4px #C2E9E9 solid; 
+}
+
+.spatula{
+float:right;
+width: 200px;
+height: 200px;
+}
+.cookie{
+float:right;
+width: 350px;
+height: 350px;
+}
